@@ -1,0 +1,19 @@
+PWM.hpp:23:3:PWM::PWM(TIM_HandleTypeDef*, uint32_t, uint16_t, int16_t, timMode, bool)	24	static
+PWM.hpp:34:23:virtual void PWM::trigger(bool)	16	static
+PWM.hpp:38:15:void PWM::Duty(int)	16	static
+PWM.hpp:43:28:HAL_StatusTypeDef PWM::fDuty(float)	24	static
+PWM.hpp:59:19:uint32_t PWM::getPiriod() const	16	static
+PWM.hpp:60:19:uint32_t PWM::getClock() const	16	static
+PWM.hpp:62:15:void PWM::setPrescaler(uint16_t)	16	static
+PWM.hpp:67:15:void PWM::setPiriod(uint16_t)	16	static
+PWM.hpp:72:3:PWM::~PWM()	16	static
+PWM.hpp:19:7:constexpr PWM::PWM(const PWM&)	16	static
+PWM.hpp:87:2:servo::servo(PWM, uint16_t, uint16_t)	32	static
+PWM.hpp:92:14:void servo::setTime(uint16_t)	24	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+Serial.hpp:29:3:Serial::Serial(UART_HandleTypeDef, uint32_t, uint32_t, uint32_t, uint32_t)	16	static
+Serial.hpp:48:11:uint8_t Serial::available()	24	static
+Serial.hpp:54:11:uint8_t Serial::read()	24	static
+main.cpp:104:5:int main()	1320	static
+main.cpp:321:6:void SystemClock_Config()	88	static
+main.cpp:370:6:void Error_Handler()	4	static,ignoring_inline_asm
